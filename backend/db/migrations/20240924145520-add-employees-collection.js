@@ -4,7 +4,5 @@ module.exports = {
     console.log('employees collection created');
   },
 
-  async down(db, client) {
-    
-  }
+  async down(db, client) {},
 };

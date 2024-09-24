@@ -4,7 +4,7 @@ const employeeSchema = new mongoose.Schema({
   name: String,
   position: String,
   department: String,
-  salary: Number
+  salary: Number,
 });
 
 module.exports = mongoose.model('Employee', employeeSchema);
