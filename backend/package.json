@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
+    "format": "npx prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sambhav Dave",
@@ -14,5 +15,10 @@
     "express": "^4.21.0",
     "migrate-mongo": "^11.0.0",
     "mongoose": "^8.6.3"
+  },
+  "devDependencies": {
+    "husky": "^9.1.6",
+    "prettier": "^3.3.3",
+    "pretty-quick": "^4.0.0"
   }
 }
